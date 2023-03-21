@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "goit-python-web-09"
+version = "0.1.0"
+description = ""
+authors = ["Oleksii Kukhariev <65445718+flatline-code@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "goit_python_web_09"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+scrapy = "^2.8.0"
+pymongo = "^4.3.3"
+mongoengine = "^0.27.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
